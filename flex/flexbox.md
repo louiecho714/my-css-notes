@@ -38,3 +38,12 @@ flex-flow: column nowrap //flex-direction:column ,flex-wrap:nowrap
 * flex-shrink：當item 收縮時的倍率0,1,2.....
 
 * flex-basis：設定item於主軸的距離，於flex-direction:row 時為item的寬度，於flex-direction:column 時為item的高度。有可能忽視原本item的高度或寬度。
+
+* flex: (flex-grow+flex-shrink+flex-basis)
+```
+flex-grow:1;
+flex-shrink:0;
+flex-basis:auto;
+==========上下相同效果========================
+flex:1 0 auto;
+```
