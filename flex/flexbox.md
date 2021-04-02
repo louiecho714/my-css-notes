@@ -2,6 +2,17 @@
 
 ## flex container
  
+Flex 外容器屬性：
+
+1. display
+2. flex-flow
+    - flex-direction
+    - flex-wrap
+3. justify-content
+4. align-items
+
+=========================================
+
 * flex direction：設定container中item的排列方向[row,column,row-reverse,column-reverse]
 ```
 flex-direction:row  //main-axis:row,cross-axis:column
@@ -29,6 +40,18 @@ flex-flow: column nowrap //flex-direction:column ,flex-wrap:nowrap
 
 
 ## flex item
+
+Flex 內元件屬性：
+
+1. flex
+    - flex-grow
+    - flex-shrink
+    - flex-basis
+2. order
+3. align-self
+
+==============================================
+
 * order：用於調整flex item的排序位置，預設0越小越前面，若數值依樣依據html原始元素排序
 
 * align-self：用於覆寫 container中align-items的設定
@@ -44,6 +67,8 @@ flex-flow: column nowrap //flex-direction:column ,flex-wrap:nowrap
 flex-grow:1;
 flex-shrink:0;
 flex-basis:auto;
+
 ==========上下相同效果========================
+
 flex:1 0 auto;
 ```
