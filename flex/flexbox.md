@@ -1,5 +1,7 @@
 # flexbox
 
+* https://stackblitz.com/edit/web-platform-k2vm31?file=styles.css
+
 ## flex container
  
 Flex 外容器屬性：
