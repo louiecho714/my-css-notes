@@ -40,6 +40,10 @@ flex-flow: column nowrap //flex-direction:column ,flex-wrap:nowrap
 
 * align-content：當 flex-wrap:wrap ，且內容物超過一行時，才會生效。使內容物跳脫align-items管理，即忽略align-items的設定。
 
+#### align-content & align-items 差異
+* align-content：以所有 items 為一群體，做對齊。
+
+* align-items： 以item所在的主軸，做對齊。
 
 ## flex item
 
